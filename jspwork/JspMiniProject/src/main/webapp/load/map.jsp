@@ -1,4 +1,3 @@
-<%@page import="data.dao.MemberDao"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <!DOCTYPE html>
@@ -11,20 +10,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-<%
-	String id=request.getParameter("id");
-
-	MemberDao dao=new MemberDao();
-	
-	String name=dao.getName(id);
-%>
-
-<div style="margin: 200px 200px;">
-	<img src="image/cat123.gif"><br>
-	<b><%=name %>님 회원가입 ㅊㅋ</b>
-	<br><br>
-	<button type="button" class="btn btn-info"
-	onclick="location.href='index.jsp?main=login/loginmain.jsp'">로그인</button>
-</div>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25322.92800955104!2d126.99509197431641!3d37.49928500000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca1c32408f9b7%3A0x4e3761a4f356d1eb!2z7IyN7Jqp6rWQ7Jyh7IS87YSw!5e0!3m2!1sko!2skr!4v1692930864580!5m2!1sko!2skr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </body>
 </html>

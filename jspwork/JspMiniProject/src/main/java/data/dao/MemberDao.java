@@ -1,4 +1,4 @@
-package data.dto;
+package data.dao;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -8,6 +8,7 @@ import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 
+import data.dto.MemberDto;
 import mysql.db.DBConnect;
 
 public class MemberDao {
@@ -239,4 +240,5 @@ public class MemberDao {
 		
 		return check;
 	}
+	
 }

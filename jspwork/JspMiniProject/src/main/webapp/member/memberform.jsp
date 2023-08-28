@@ -1,6 +1,6 @@
 <%@page import="java.util.StringTokenizer"%>
 <%@page import="data.dto.MemberDto"%>
-<%@page import="data.dto.MemberDao"%>
+<%@page import="data.dao.MemberDao"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <!DOCTYPE html>

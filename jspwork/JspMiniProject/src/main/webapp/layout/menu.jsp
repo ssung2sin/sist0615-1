@@ -51,7 +51,7 @@
                      <li><a href="<%=root%>/index.jsp?main=member/myinfo.jsp"><i class="bi bi-file-earmark-person-fill"></i>내정보</a></li>
                   </ul>
                </li>
-               <li><a href="<%=root%>/index.jsp?main=guest/guestlist.jsp">방명록</a></li>
+               <li><a href="<%=root%>/index.jsp?main=guest/guestlist.jsp">회원 방명록</a></li>
                <li class="parent"><a href="#">고객의소리</a>
                   <ul class="sub-menu">
                      <li><a href="<%=root%>/index.jsp?main=board/boardlist.jsp">회원게시판</a></li>
